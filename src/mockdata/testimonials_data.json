@@ -1,0 +1,34 @@
+{
+    "testimonials":[
+        {
+            "id":1,
+            "review":"I thoroughly enjoyed the mentor sessions and am grateful to be a part of this program. Special thanks to my Capstone Mentor for helping me complete the project. I also appreciate the Program Managers for ensuring a smooth journey throughout.",
+            "image": "testimonials/testimonial.png",
+            "name": "Sai Kumar"
+        },
+        {
+            "id":2,
+            "review":"I thoroughly enjoyed the mentor sessions and am grateful to be a part of this program. Special thanks to my Capstone Mentor for helping me complete the project. I also appreciate the Program Managers for ensuring a smooth journey throughout.",
+            "image": "testimonials/testimonial.png",
+            "name": "Sai Kumar"
+        },
+        {
+            "id":3,
+            "review":"I thoroughly enjoyed the mentor sessions and am grateful to be a part of this program. Special thanks to my Capstone Mentor for helping me complete the project. I also appreciate the Program Managers for ensuring a smooth journey throughout.",
+            "image": "testimonials/testimonial.png",
+            "name": "Sai Kumar"
+        },
+        {
+            "id":4,
+            "review":"I thoroughly enjoyed the mentor sessions and am grateful to be a part of this program. Special thanks to my Capstone Mentor for helping me complete the project. I also appreciate the Program Managers for ensuring a smooth journey throughout.",
+            "image": "testimonials/testimonial.png",
+            "name": "Sai Kumar"
+        },
+        {
+            "id":5,
+            "review":"I thoroughly enjoyed the mentor sessions and am grateful to be a part of this program. Special thanks to my Capstone Mentor for helping me complete the project. I also appreciate the Program Managers for ensuring a smooth journey throughout.",
+            "image": "testimonials/testimonial.png",
+            "name": "Sai Kumar"
+        }
+    ]
+}

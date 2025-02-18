@@ -1,0 +1,56 @@
+{
+    "card":[
+        {
+            "id":1,
+            "title":"Complete Machine Learning",
+            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "level":"Intermediate",
+            "chapters":"10 chapters",
+            "price":"₹ 399.00",
+            "ratings":"4.0",
+            "image":"courses/course.png"
+        },
+        {
+            "id":2,
+            "title":"Complete Machine Learning",
+            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "level":"Intermediate",
+            "chapters":"10 chapters",
+            "price":"₹ 399.00",
+            "ratings":"4.0",
+            "image":"courses/course.png"
+        },
+        {
+            "id":3,
+            "title":"Complete Machine Learning",
+            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "level":"Intermediate",
+            "chapters":"10 chapters",
+            "price":"₹ 399.00",
+            "ratings":"4.0",
+            "image":"courses/course.png"
+        },
+        {
+            "id":4,
+            "title":"Complete Machine Learning",
+            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "level":"Intermediate",
+            "chapters":"10 chapters",
+            "price":"₹ 399.00",
+            "ratings":"4.0",
+            "image":"courses/course.png"
+        },
+        {
+            "id":5,
+            "title":"Complete Machine Learning",
+            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "level":"Intermediate",
+            "chapters":"10 chapters",
+            "price":"₹ 399.00",
+            "ratings":"4.0",
+            "image":"courses/course.png"
+        }
+        
+    ]
+        
+}
