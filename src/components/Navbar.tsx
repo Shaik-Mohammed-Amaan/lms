@@ -1,9 +1,15 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useState } from "react";
+import {
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs';
 
 
 const Navbar = () => {
@@ -42,12 +48,13 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Button
-            className="hover:scale-105 hover:font-semibold transition-transform duration-300"
-            variant="default"
-          >
-            Get Started
-          </Button>
+          <SignedOut>
+              <SignInButton />
+              <SignUpButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
         </div>
         <div className="-mr-2 flex md:hidden">
           <button
@@ -106,12 +113,13 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Button
-            className="hover:scale-105 hover:font-semibold transition-transform duration-300"
-            variant="default"
-          >
-            Get Started
-          </Button>
+          <SignedOut>
+              <SignInButton />
+              <SignUpButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
         </div>
       )}
     </nav>
