@@ -1,56 +1,639 @@
 {
-    "card":[
-        {
-            "id":1,
-            "title":"Complete Machine Learning",
-            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "level":"Intermediate",
-            "chapters":"10 chapters",
-            "price":"₹ 399.00",
-            "ratings":"4.0",
-            "image":"courses/course.png"
-        },
-        {
-            "id":2,
-            "title":"Complete Machine Learning",
-            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "level":"Intermediate",
-            "chapters":"10 chapters",
-            "price":"₹ 399.00",
-            "ratings":"4.0",
-            "image":"courses/course.png"
-        },
-        {
-            "id":3,
-            "title":"Complete Machine Learning",
-            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "level":"Intermediate",
-            "chapters":"10 chapters",
-            "price":"₹ 399.00",
-            "ratings":"4.0",
-            "image":"courses/course.png"
-        },
-        {
-            "id":4,
-            "title":"Complete Machine Learning",
-            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "level":"Intermediate",
-            "chapters":"10 chapters",
-            "price":"₹ 399.00",
-            "ratings":"4.0",
-            "image":"courses/course.png"
-        },
-        {
-            "id":5,
-            "title":"Complete Machine Learning",
-            "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "level":"Intermediate",
-            "chapters":"10 chapters",
-            "price":"₹ 399.00",
-            "ratings":"4.0",
-            "image":"courses/course.png"
-        }
-        
+    "courses": [
+      {
+        "id": 1,
+        "title": "Python Programming Bootcamp",
+        "description": "Master Python from basics to advanced concepts. Includes hands-on projects, quizzes, and real-world applications.",
+        "level": "Beginner",
+        "chapters": "12 chapters",
+        "price": "₹ 299.00",
+        "ratings": "4.7",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Write Python scripts and functions",
+          "Understand data types, loops, and control flow",
+          "Work with files and modules",
+          "Build real-world projects in Python"
+        ],
+        "detailedChapters": [
+          { "title": "Introduction to Python", "content": "History and features of Python, installation, and setup." },
+          { "title": "Variables and Data Types", "content": "Numbers, strings, lists, tuples, and dictionaries." },
+          { "title": "Control Flow", "content": "If statements, loops, and logical operators." },
+          { "title": "Functions and Modules", "content": "Defining and using functions, importing modules." },
+          { "title": "File Handling", "content": "Reading from and writing to files." },
+          { "title": "Error Handling", "content": "Try/except blocks and exception management." },
+          { "title": "Object-Oriented Programming", "content": "Classes, objects, inheritance, and polymorphism." },
+          { "title": "Working with Libraries", "content": "Using popular Python libraries." },
+          { "title": "Virtual Environments", "content": "Managing dependencies with venv and pip." },
+          { "title": "Project 1: Calculator", "content": "Build a command-line calculator." },
+          { "title": "Project 2: Data Analyzer", "content": "Analyze CSV data with Python." },
+          { "title": "Final Quiz & Wrap-up", "content": "Test your knowledge and next steps." }
+        ],
+        "skills": ["Python", "File Handling", "OOP", "Problem Solving", "Data Analysis"],
+        "faqs": [
+          { "question": "Do I need prior programming experience?", "answer": "No, this course is suitable for absolute beginners." },
+          { "question": "Are there hands-on projects?", "answer": "Yes, every module includes practical exercises." }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Introduction to Artificial Intelligence",
+        "description": "Explore the fundamentals of AI, including search algorithms, logic, and knowledge representation. No prior experience required.",
+        "level": "Beginner",
+        "chapters": "8 chapters",
+        "price": "₹ 349.00",
+        "ratings": "4.5",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Understand what AI is and its history",
+          "Learn about search algorithms and problem solving",
+          "Explore logic and knowledge representation",
+          "Discover real-world applications of AI"
+        ],
+        "detailedChapters": [
+          { "title": "What is AI?", "content": "Definition, history, and branches of AI." },
+          { "title": "Problem Solving & Search", "content": "Uninformed and informed search strategies." },
+          { "title": "Knowledge Representation", "content": "Logic, rules, and semantic networks." },
+          { "title": "Reasoning & Inference", "content": "Deductive and inductive reasoning." },
+          { "title": "Machine Learning Basics", "content": "Introduction to ML in AI." },
+          { "title": "AI Applications", "content": "AI in healthcare, finance, and more." },
+          { "title": "Ethics in AI", "content": "Bias, fairness, and social impact." },
+          { "title": "Future of AI", "content": "Trends and career paths." }
+        ],
+        "skills": ["AI Fundamentals", "Logic", "Problem Solving", "Knowledge Representation"],
+        "faqs": [
+          { "question": "Is this course technical?", "answer": "No, it's designed for beginners and non-programmers." }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Machine Learning A-Z",
+        "description": "Comprehensive guide to Machine Learning using Python and R. Includes supervised and unsupervised learning, and practical exercises.",
+        "level": "Intermediate",
+        "chapters": "15 chapters",
+        "price": "₹ 499.00",
+        "ratings": "4.8",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build supervised and unsupervised ML models",
+          "Understand regression, classification, and clustering",
+          "Apply ML to real datasets",
+          "Tune and evaluate model performance"
+        ],
+        "detailedChapters": [
+          { "title": "Introduction to ML", "content": "What is machine learning and its types." },
+          { "title": "Data Preprocessing", "content": "Cleaning, encoding, and scaling data." },
+          { "title": "Regression", "content": "Linear and polynomial regression." },
+          { "title": "Classification", "content": "Logistic regression, KNN, SVM, Decision Trees." },
+          { "title": "Clustering", "content": "K-Means, Hierarchical clustering." },
+          { "title": "Dimensionality Reduction", "content": "PCA and LDA." },
+          { "title": "Model Selection", "content": "Cross-validation and grid search." },
+          { "title": "Ensemble Learning", "content": "Random Forests, Boosting." },
+          { "title": "Natural Language Processing", "content": "Text classification basics." },
+          { "title": "Deep Learning Intro", "content": "Neural networks basics." },
+          { "title": "Project 1: House Price Prediction", "content": "Apply regression to predict house prices." },
+          { "title": "Project 2: Email Spam Classifier", "content": "Build a spam detection model." },
+          { "title": "Model Deployment", "content": "Deploy models with Flask." },
+          { "title": "Model Evaluation", "content": "Metrics and confusion matrix." },
+          { "title": "Final Quiz", "content": "Test your ML knowledge." }
+        ],
+        "skills": ["Machine Learning", "Regression", "Classification", "Clustering", "Model Deployment"],
+        "faqs": [
+          { "question": "Do I need Python or R knowledge?", "answer": "Basic familiarity helps, but all code is explained." }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Deep Learning with TensorFlow",
+        "description": "Learn to build neural networks and deep learning models with TensorFlow. Covers CNNs, RNNs, and practical projects.",
+        "level": "Advanced",
+        "chapters": "10 chapters",
+        "price": "₹ 599.00",
+        "ratings": "4.6",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build neural networks in TensorFlow",
+          "Use CNNs for image tasks and RNNs for sequences",
+          "Train and tune deep learning models",
+          "Deploy models to production"
+        ],
+        "detailedChapters": [
+          { "title": "Intro to Deep Learning", "content": "Neural networks and deep learning basics." },
+          { "title": "TensorFlow Basics", "content": "Tensors, operations, and sessions." },
+          { "title": "Building Neural Networks", "content": "Sequential and functional API." },
+          { "title": "Convolutional Neural Networks", "content": "Image classification with CNNs." },
+          { "title": "Recurrent Neural Networks", "content": "Sequence modeling with RNNs and LSTMs." },
+          { "title": "Regularization", "content": "Dropout and batch normalization." },
+          { "title": "Transfer Learning", "content": "Using pre-trained models." },
+          { "title": "Model Deployment", "content": "Save and serve models." },
+          { "title": "Project: Image Classifier", "content": "Build a real-world image classifier." },
+          { "title": "Final Assessment", "content": "Test your deep learning skills." }
+        ],
+        "skills": ["TensorFlow", "Deep Learning", "CNNs", "RNNs", "Model Deployment"],
+        "faqs": [
+          { "question": "Is prior ML knowledge required?", "answer": "Yes, you should know basic ML concepts." }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Data Science with Python",
+        "description": "Analyze data, visualize results, and make data-driven decisions using Python libraries like Pandas, NumPy, and Matplotlib.",
+        "level": "Intermediate",
+        "chapters": "13 chapters",
+        "price": "₹ 429.00",
+        "ratings": "4.7",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Analyze data with Pandas and NumPy",
+          "Visualize data with Matplotlib",
+          "Clean and transform datasets",
+          "Build predictive models"
+        ],
+        "detailedChapters": [
+          { "title": "Python Refresher", "content": "Quick review of Python basics." },
+          { "title": "Data Structures", "content": "Lists, dictionaries, and arrays." },
+          { "title": "Pandas for Data Analysis", "content": "DataFrames, Series, and operations." },
+          { "title": "NumPy for Computation", "content": "Arrays, broadcasting, and math functions." },
+          { "title": "Data Cleaning", "content": "Handling missing data and outliers." },
+          { "title": "Data Visualization", "content": "Plotting with Matplotlib." },
+          { "title": "Exploratory Data Analysis", "content": "Summary statistics and insights." },
+          { "title": "Feature Engineering", "content": "Creating new features for models." },
+          { "title": "Predictive Modeling", "content": "Linear regression and classification." },
+          { "title": "Model Evaluation", "content": "Metrics and validation." },
+          { "title": "Project: Titanic Survival", "content": "Predict survival on the Titanic dataset." },
+          { "title": "Reporting Results", "content": "Communicate findings effectively." },
+          { "title": "Final Assessment", "content": "Test your data science skills." }
+        ],
+        "skills": ["Pandas", "NumPy", "Matplotlib", "Data Cleaning", "Predictive Modeling"],
+        "faqs": [
+          { "question": "Is this course project-based?", "answer": "Yes, you'll work on real datasets and projects." }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Natural Language Processing in Python",
+        "description": "Dive into NLP with Python. Learn text processing, sentiment analysis, and build chatbots using NLTK and spaCy.",
+        "level": "Advanced",
+        "chapters": "9 chapters",
+        "price": "₹ 549.00",
+        "ratings": "4.5",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Process and analyze text data",
+          "Build sentiment analysis models",
+          "Create chatbots using NLTK and spaCy",
+          "Apply advanced NLP techniques"
+        ],
+        "detailedChapters": [
+          { "title": "NLP Basics", "content": "What is NLP and its applications." },
+          { "title": "Text Preprocessing", "content": "Tokenization, stemming, and lemmatization." },
+          { "title": "Feature Extraction", "content": "Bag of Words, TF-IDF." },
+          { "title": "Sentiment Analysis", "content": "Building models to detect sentiment." },
+          { "title": "Named Entity Recognition", "content": "Extracting entities from text." },
+          { "title": "Topic Modeling", "content": "LDA and topic discovery." },
+          { "title": "Chatbots", "content": "Building rule-based and ML-powered chatbots." },
+          { "title": "spaCy and NLTK", "content": "Using popular NLP libraries." },
+          { "title": "Project: Text Classifier", "content": "Classify news articles by topic." }
+        ],
+        "skills": ["NLP", "Text Processing", "Sentiment Analysis", "Chatbots", "spaCy", "NLTK"],
+        "faqs": [
+          { "question": "Do I need prior ML knowledge?", "answer": "Some ML basics are helpful but not required." }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Reinforcement Learning Essentials",
+        "description": "Understand the basics of reinforcement learning and build your own agents to solve real-world problems.",
+        "level": "Advanced",
+        "chapters": "7 chapters",
+        "price": "₹ 599.00",
+        "ratings": "4.4",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Understand RL concepts and terminology",
+          "Implement Q-learning and policy gradients",
+          "Apply RL to games and robotics",
+          "Build projects using OpenAI Gym"
+        ],
+        "detailedChapters": [
+          { "title": "RL Foundations", "content": "Explore states, actions, rewards, and policies." },
+          { "title": "Q-learning", "content": "Implement Q-learning from scratch." },
+          { "title": "Policy Gradients", "content": "Learn about policy optimization methods." },
+          { "title": "RL in Practice", "content": "Apply RL to real-world problems." },
+          { "title": "OpenAI Gym", "content": "Simulate environments for RL." },
+          { "title": "Project: Game Agent", "content": "Build an agent to play a simple game." },
+          { "title": "Capstone Project", "content": "Build a complete RL agent." }
+        ],
+        "skills": ["Reinforcement Learning", "Q-learning", "Policy Gradients", "OpenAI Gym"],
+        "faqs": [
+          { "question": "Is math required?", "answer": "A basic understanding of probability and calculus is helpful." }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Computer Vision with OpenCV",
+        "description": "Learn to process and analyze images and videos using OpenCV and Python. Includes object detection and face recognition projects.",
+        "level": "Intermediate",
+        "chapters": "11 chapters",
+        "price": "₹ 479.00",
+        "ratings": "4.6",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Work with images and videos in Python",
+          "Apply filters and transformations",
+          "Detect objects and faces",
+          "Build end-to-end computer vision projects"
+        ],
+        "detailedChapters": [
+          { "title": "Image Basics", "content": "Read and process images with OpenCV." },
+          { "title": "Image Transformations", "content": "Apply filters, resizing, and rotations." },
+          { "title": "Edge Detection", "content": "Detect edges in images." },
+          { "title": "Object Detection", "content": "Detect objects in images and video." },
+          { "title": "Face Recognition", "content": "Build a face recognition system." },
+          { "title": "Video Processing", "content": "Process video streams in real-time." },
+          { "title": "Contours and Shapes", "content": "Detect and analyze shapes." },
+          { "title": "Project: Barcode Scanner", "content": "Build a barcode/QR code scanner." },
+          { "title": "Project: Object Tracker", "content": "Track objects in video." },
+          { "title": "Project: Face Detector", "content": "Detect faces in images." },
+          { "title": "Final Assessment", "content": "Test your computer vision skills." }
+        ],
+        "skills": ["OpenCV", "Image Processing", "Object Detection", "Face Recognition", "Python"],
+        "faqs": [
+          { "question": "Do I need a GPU?", "answer": "A GPU is helpful but not required for most projects." }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Python for Data Analysis",
+        "description": "Get hands-on with data analysis using Python. Work with real datasets and learn data cleaning, transformation, and visualization.",
+        "level": "Beginner",
+        "chapters": "10 chapters",
+        "price": "₹ 319.00",
+        "ratings": "4.7",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Import and clean data in Python",
+          "Analyze and visualize datasets",
+          "Use Pandas and Matplotlib",
+          "Draw actionable insights from data"
+        ],
+        "detailedChapters": [
+          { "title": "Data Import", "content": "Read data from CSV, Excel, and databases." },
+          { "title": "Data Cleaning", "content": "Handle missing values and outliers." },
+          { "title": "Data Transformation", "content": "Reshape and aggregate data." },
+          { "title": "Exploratory Data Analysis", "content": "Summary statistics and visualization." },
+          { "title": "Data Visualization", "content": "Plotting with Matplotlib and Seaborn." },
+          { "title": "Feature Engineering", "content": "Create new features for analysis." },
+          { "title": "Correlation Analysis", "content": "Find relationships between variables." },
+          { "title": "Project: Sales Data Analysis", "content": "Analyze sales data from a retail store." },
+          { "title": "Reporting Results", "content": "Present findings effectively." },
+          { "title": "Final Assessment", "content": "Test your data analysis skills." }
+        ],
+        "skills": ["Data Analysis", "Pandas", "Matplotlib", "Data Cleaning", "Visualization"],
+        "faqs": [
+          { "question": "Is this course project-based?", "answer": "Yes, you'll work on real datasets and projects." }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Advanced Machine Learning Projects",
+        "description": "Build real-world ML projects using advanced techniques including ensemble methods, feature engineering, and model deployment.",
+        "level": "Advanced",
+        "chapters": "12 chapters",
+        "price": "₹ 649.00",
+        "ratings": "4.8",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build advanced ML projects from scratch",
+          "Apply ensemble methods and feature engineering",
+          "Deploy models to production",
+          "Work with real-world datasets"
+        ],
+        "detailedChapters": [
+          { "title": "Project 1: Credit Scoring", "content": "Build a credit scoring model." },
+          { "title": "Project 2: Fraud Detection", "content": "Detect fraudulent transactions." },
+          { "title": "Project 3: Churn Prediction", "content": "Predict customer churn." },
+          { "title": "Ensemble Methods", "content": "Bagging, boosting, and stacking." },
+          { "title": "Feature Engineering", "content": "Create and select features." },
+          { "title": "Model Deployment", "content": "Deploy models with Flask and Docker." },
+          { "title": "Model Monitoring", "content": "Track and monitor model performance." },
+          { "title": "Data Versioning", "content": "Manage data with DVC." },
+          { "title": "Hyperparameter Tuning", "content": "Optimize model parameters." },
+          { "title": "Project: Image Classification", "content": "Classify images using deep learning." },
+          { "title": "Project: NLP Sentiment Analysis", "content": "Analyze sentiment in text data." },
+          { "title": "Final Assessment", "content": "Test your advanced ML skills." }
+        ],
+        "skills": ["Ensemble Methods", "Feature Engineering", "Model Deployment", "Project Management"],
+        "faqs": [
+          { "question": "Are these real-world projects?", "answer": "Yes, all projects are based on real datasets." }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "AI for Everyone",
+        "description": "A non-technical introduction to AI concepts, trends, and applications. Perfect for business professionals and beginners.",
+        "level": "Beginner",
+        "chapters": "6 chapters",
+        "price": "₹ 199.00",
+        "ratings": "4.3",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Understand what AI is and what it can (and can’t) do",
+          "Identify opportunities to apply AI in your own organization",
+          "Navigate ethical and societal challenges of AI",
+          "Communicate effectively about AI with technical teams"
+        ],
+        "detailedChapters": [
+          { "title": "AI Fundamentals", "content": "Learn what AI is, its history, and its core concepts." },
+          { "title": "AI in Business", "content": "Explore how AI is transforming industries and organizations." },
+          { "title": "Ethics and Society", "content": "Discuss the ethical implications and societal impact of AI." },
+          { "title": "Communicating AI", "content": "Learn how to talk about AI with technical and non-technical audiences." },
+          { "title": "Case Studies", "content": "Real-world AI case studies." },
+          { "title": "Final Quiz", "content": "Test your understanding of AI concepts." }
+        ],
+        "skills": ["AI Concepts", "Ethical AI", "AI Communication", "Business Applications of AI"],
+        "faqs": [
+          { "question": "Is this course technical?", "answer": "No, it’s designed for non-technical learners and business professionals." }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "PyTorch for Deep Learning",
+        "description": "Master deep learning with PyTorch. Build neural networks, GANs, and deploy models with hands-on projects.",
+        "level": "Advanced",
+        "chapters": "10 chapters",
+        "price": "₹ 579.00",
+        "ratings": "4.7",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build neural networks in PyTorch",
+          "Implement GANs and autoencoders",
+          "Train and deploy deep learning models",
+          "Work on real-world projects"
+        ],
+        "detailedChapters": [
+          { "title": "PyTorch Basics", "content": "Tensors, operations, and autograd." },
+          { "title": "Building Neural Networks", "content": "Sequential and custom models." },
+          { "title": "Training Loops", "content": "Loss functions and optimizers." },
+          { "title": "CNNs in PyTorch", "content": "Image classification tasks." },
+          { "title": "RNNs in PyTorch", "content": "Sequence modeling." },
+          { "title": "GANs", "content": "Build and train generative adversarial networks." },
+          { "title": "Autoencoders", "content": "Dimensionality reduction and denoising." },
+          { "title": "Model Deployment", "content": "Save and load models." },
+          { "title": "Project: Image Generator", "content": "Build a GAN for image generation." },
+          { "title": "Final Assessment", "content": "Test your PyTorch skills." }
+        ],
+        "skills": ["PyTorch", "Deep Learning", "GANs", "Autoencoders", "Model Deployment"],
+        "faqs": [
+          { "question": "Is prior deep learning experience required?", "answer": "Yes, you should know basic neural networks." }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Time Series Analysis with Python",
+        "description": "Analyze and forecast time series data using Python. Covers ARIMA, Prophet, and deep learning approaches.",
+        "level": "Intermediate",
+        "chapters": "9 chapters",
+        "price": "₹ 459.00",
+        "ratings": "4.6",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Understand time series concepts",
+          "Build ARIMA and Prophet models",
+          "Forecast with deep learning",
+          "Apply time series to real data"
+        ],
+        "detailedChapters": [
+          { "title": "Time Series Basics", "content": "Trends, seasonality, and stationarity." },
+          { "title": "ARIMA Models", "content": "Build and tune ARIMA models." },
+          { "title": "Prophet", "content": "Forecast with Facebook Prophet." },
+          { "title": "Deep Learning for Time Series", "content": "LSTM and RNN models." },
+          { "title": "Feature Engineering", "content": "Create features for time series." },
+          { "title": "Model Evaluation", "content": "Metrics for forecasting." },
+          { "title": "Project: Stock Price Prediction", "content": "Predict stock prices with time series models." },
+          { "title": "Project: Weather Forecasting", "content": "Forecast weather data." },
+          { "title": "Final Assessment", "content": "Test your time series skills." }
+        ],
+        "skills": ["Time Series", "ARIMA", "Prophet", "LSTM", "Forecasting"],
+        "faqs": [
+          { "question": "Is Python required?", "answer": "Yes, basic Python knowledge is needed." }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Data Visualization with Matplotlib & Seaborn",
+        "description": "Create stunning data visualizations in Python using Matplotlib and Seaborn. Includes interactive charts and dashboards.",
+        "level": "Beginner",
+        "chapters": "8 chapters",
+        "price": "₹ 269.00",
+        "ratings": "4.5",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Create line, bar, and scatter plots",
+          "Customize charts for clarity",
+          "Build interactive dashboards",
+          "Communicate insights visually"
+        ],
+        "detailedChapters": [
+          { "title": "Plotting Basics", "content": "Introduction to Matplotlib and Seaborn." },
+          { "title": "Customizing Visuals", "content": "Style and annotate your charts." },
+          { "title": "Dashboards", "content": "Build interactive dashboards with Plotly." },
+          { "title": "Best Practices", "content": "Effective data storytelling." },
+          { "title": "Project: Sales Dashboard", "content": "Create a dashboard for sales data." },
+          { "title": "Project: Weather Visualization", "content": "Visualize weather data trends." },
+          { "title": "Advanced Visuals", "content": "Heatmaps, pairplots, and more." },
+          { "title": "Final Assessment", "content": "Test your data viz skills." }
+        ],
+        "skills": ["Matplotlib", "Seaborn", "Plotly", "Data Visualization"],
+        "faqs": [
+          { "question": "Do I need design skills?", "answer": "No, you'll learn all you need in the course." }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Building Recommendation Systems",
+        "description": "Learn to create personalized recommendation systems using collaborative filtering, content-based filtering, and hybrid methods.",
+        "level": "Intermediate",
+        "chapters": "10 chapters",
+        "price": "₹ 499.00",
+        "ratings": "4.6",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build collaborative and content-based recommenders",
+          "Implement hybrid recommendation systems",
+          "Evaluate recommender performance",
+          "Deploy recommendation systems"
+        ],
+        "detailedChapters": [
+          { "title": "Intro to Recommenders", "content": "What are recommendation systems?" },
+          { "title": "Collaborative Filtering", "content": "User-based and item-based filtering." },
+          { "title": "Content-Based Filtering", "content": "Profile users and items." },
+          { "title": "Hybrid Methods", "content": "Combine collaborative and content-based." },
+          { "title": "Matrix Factorization", "content": "SVD and latent factors." },
+          { "title": "Deep Learning Recommenders", "content": "Use neural networks for recommendations." },
+          { "title": "Evaluation Metrics", "content": "Precision, recall, and RMSE." },
+          { "title": "Project: Movie Recommender", "content": "Build a movie recommendation engine." },
+          { "title": "Project: E-commerce Recommender", "content": "Recommend products to users." },
+          { "title": "Deployment", "content": "Deploy your recommender system." }
+        ],
+        "skills": ["Recommendation Systems", "Collaborative Filtering", "Content-Based Filtering", "Matrix Factorization"],
+        "faqs": [
+          { "question": "Do I need ML experience?", "answer": "Some ML basics are helpful but not required." }
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Python for Web Development",
+        "description": "Build dynamic web applications using Python, Flask, and Django. Includes REST APIs and deployment.",
+        "level": "Beginner",
+        "chapters": "12 chapters",
+        "price": "₹ 399.00",
+        "ratings": "4.4",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Build web apps with Flask and Django",
+          "Work with databases in Python",
+          "Deploy web applications",
+          "Implement authentication and security"
+        ],
+        "detailedChapters": [
+          { "title": "Web Basics", "content": "HTTP, HTML, and web servers." },
+          { "title": "Flask", "content": "Build a simple web app with Flask." },
+          { "title": "Django", "content": "Create a full-featured site with Django." },
+          { "title": "Databases", "content": "Integrate databases with web apps." },
+          { "title": "REST APIs", "content": "Create and consume RESTful APIs." },
+          { "title": "Authentication", "content": "User login and security." },
+          { "title": "Templates", "content": "Dynamic HTML with Jinja and Django templates." },
+          { "title": "Static Files", "content": "Serving CSS, JS, and images." },
+          { "title": "Forms", "content": "Handle user input with forms." },
+          { "title": "Testing", "content": "Write tests for your web app." },
+          { "title": "Deployment", "content": "Deploy your app to the cloud." },
+          { "title": "Final Project", "content": "Build and deploy a complete web app." }
+        ],
+        "skills": ["Flask", "Django", "Web Development", "REST APIs", "Deployment"],
+        "faqs": [
+          { "question": "Do I need HTML/CSS?", "answer": "Basic HTML/CSS knowledge is helpful but not required." }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "Ethics in AI and Data Science",
+        "description": "Explore the ethical considerations in AI and data science, including bias, fairness, and responsible AI practices.",
+        "level": "All Levels",
+        "chapters": "7 chapters",
+        "price": "₹ 249.00",
+        "ratings": "4.2",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Understand AI bias and fairness",
+          "Explore ethical frameworks for AI",
+          "Learn about responsible AI development",
+          "Discuss real-world case studies"
+        ],
+        "detailedChapters": [
+          { "title": "AI Bias", "content": "What is bias and how does it arise in AI?" },
+          { "title": "Fairness", "content": "Ensuring fairness in AI systems." },
+          { "title": "Responsible AI", "content": "Guidelines and frameworks for ethical AI." },
+          { "title": "Privacy and Security", "content": "Data privacy and protection." },
+          { "title": "Transparency", "content": "Explainability in AI models." },
+          { "title": "Case Studies", "content": "Ethics in real-world AI projects." },
+          { "title": "Final Assessment", "content": "Test your understanding of AI ethics." }
+        ],
+        "skills": ["Ethics", "AI", "Fairness", "Responsible AI", "Transparency"],
+        "faqs": [
+          { "question": "Is this course technical?", "answer": "No, it's suitable for all backgrounds." }
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Image Processing with Python",
+        "description": "Learn fundamental and advanced image processing techniques with Python and PIL, OpenCV, and Scikit-Image.",
+        "level": "Intermediate",
+        "chapters": "9 chapters",
+        "price": "₹ 429.00",
+        "ratings": "4.5",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Work with images in Python",
+          "Apply filters and transformations",
+          "Segment and analyze images",
+          "Build real-world image processing projects"
+        ],
+        "detailedChapters": [
+          { "title": "Image Basics", "content": "Read and process images with PIL and OpenCV." },
+          { "title": "Image Transformations", "content": "Apply filters, resizing, and rotations." },
+          { "title": "Segmentation", "content": "Segment images into regions." },
+          { "title": "Feature Extraction", "content": "Extract features from images." },
+          { "title": "Morphological Operations", "content": "Erosion, dilation, and more." },
+          { "title": "Edge Detection", "content": "Detect edges and boundaries." },
+          { "title": "Object Detection", "content": "Detect objects in images." },
+          { "title": "Project: Image Editor", "content": "Build a simple image editor." },
+          { "title": "Final Assessment", "content": "Test your image processing skills." }
+        ],
+        "skills": ["Image Processing", "OpenCV", "PIL", "Scikit-Image", "Segmentation"],
+        "faqs": [
+          { "question": "Do I need a GPU?", "answer": "A GPU is helpful but not required." }
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Speech Recognition with Deep Learning",
+        "description": "Build speech recognition systems using deep learning. Covers audio preprocessing, feature extraction, and model training.",
+        "level": "Advanced",
+        "chapters": "8 chapters",
+        "price": "₹ 599.00",
+        "ratings": "4.6",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Process and analyze audio data",
+          "Extract features from speech",
+          "Build deep learning models for speech recognition",
+          "Deploy speech recognition systems"
+        ],
+        "detailedChapters": [
+          { "title": "Audio Basics", "content": "Understand audio signals and formats." },
+          { "title": "Audio Preprocessing", "content": "Clean and prepare audio data." },
+          { "title": "Feature Extraction", "content": "Extract MFCCs and spectrograms." },
+          { "title": "Deep Learning Models", "content": "Build RNN and CNN models for speech." },
+          { "title": "Training and Evaluation", "content": "Train and validate models." },
+          { "title": "Project: Speech Command Recognition", "content": "Recognize spoken commands." },
+          { "title": "Deployment", "content": "Deploy models to production." },
+          { "title": "Final Assessment", "content": "Test your speech recognition skills." }
+        ],
+        "skills": ["Speech Recognition", "Audio Processing", "Deep Learning", "MFCC", "CNN", "RNN"],
+        "faqs": [
+          { "question": "Do I need audio hardware?", "answer": "No, sample audio files are provided." }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Automating Tasks with Python",
+        "description": "Automate boring tasks like file handling, web scraping, and emailing using Python scripts. Perfect for boosting productivity.",
+        "level": "Beginner",
+        "chapters": "7 chapters",
+        "price": "₹ 299.00",
+        "ratings": "4.7",
+        "image": "logo.svg",
+        "whatYouLearn": [
+          "Automate file operations and folder management",
+          "Scrape data from websites",
+          "Send automated emails",
+          "Schedule and run scripts automatically"
+        ],
+        "detailedChapters": [
+          { "title": "Python Automation Basics", "content": "What is automation and where to use it." },
+          { "title": "File and Folder Automation", "content": "Move, copy, and rename files with Python." },
+          { "title": "Web Scraping", "content": "Extract data from websites with BeautifulSoup." },
+          { "title": "Email Automation", "content": "Send emails with Python scripts." },
+          { "title": "Scheduling Scripts", "content": "Run scripts automatically with schedulers." },
+          { "title": "Project: Bulk File Organizer", "content": "Organize files in your computer automatically." },
+          { "title": "Final Assessment", "content": "Test your automation skills." }
+        ],
+        "skills": ["Automation", "Web Scraping", "Emailing", "File Handling", "Python Scripting"],
+        "faqs": [
+          { "question": "Do I need admin rights?", "answer": "No, all scripts run in user mode." }
+        ]
+      }
     ]
-        
-}
+  }
+  

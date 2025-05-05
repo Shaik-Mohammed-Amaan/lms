@@ -43,7 +43,9 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            href="/contact"
+            href="https://modernmonklabs.com/contact/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:scale-105 hover:font-semibold transition-transform duration-300"
           >
             Contact
@@ -108,7 +110,9 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            href="/contact"
+            href="https://modernmonklabs.com/contact/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:scale-105 hover:font-semibold transition-transform duration-300"
           >
             Contact

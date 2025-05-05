@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Footer from '@/components/footer';
 
 
 
@@ -45,10 +46,7 @@ export default function AboutUs() {
         />
        
       </main>
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white text-center p-4 mt-10">
-        <p>&copy; 2025 Your Company. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
