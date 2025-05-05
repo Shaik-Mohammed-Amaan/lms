@@ -1,8 +1,21 @@
+"use client";
 import { Course } from "@/types/Course";
 import Image from "next/image";
 import Accordion from "./accordion";
+import {useParams, useRouter } from 'next/navigation';
 
 export default function CourseContentPage({ course }: { course: Course }) {
+
+  const params = useParams();
+  const router = useRouter();
+  const id = params.id;
+
+  const handleEnroll = () => {
+    // Save enrollment status (dummy implementation)
+    localStorage.setItem(`enrolled_${id}`, 'true');
+    router.push(`/courses/enrollCourse/${id}`);
+  };
+
   return (
     <div className="bg-[#f6f4ff] min-h-screen pb-16">
       {/* Header */}
@@ -18,7 +31,7 @@ export default function CourseContentPage({ course }: { course: Course }) {
               <span className="bg-white border border-[#5652E9] rounded-md px-2 text-sm font-medium">{course.level}</span>
               <span className="bg-white border border-[#5652E9] rounded-md px-2 text-sm font-medium">{course.chapters}</span>
             </div>
-            <button className="bg-[#5652E9] text-white px-6 py-2 rounded font-semibold shadow hover:bg-[#3e38b0] transition">
+            <button  onClick={handleEnroll} className="bg-[#5652E9] text-white px-6 py-2 rounded font-semibold shadow hover:bg-[#3e38b0] transition">
               Enroll Now
             </button>
           </div>
@@ -100,13 +113,11 @@ export default function CourseContentPage({ course }: { course: Course }) {
             <div className="mb-2">Self-paced</div>
             <div className="mb-2">{course.chapters}</div>
             <div className="mb-2">5 lessons</div>
-            <div className="mb-2">{course.price}</div>
+           
             <button className="bg-[#5652E9] text-white px-4 py-2 rounded w-full font-semibold mb-2">
-              Add to Cart
+              Add to WishList
             </button>
-            <button className="border border-[#5652E9] text-[#5652E9] px-4 py-2 rounded w-full font-semibold">
-              ♥
-            </button>
+           
           </div>
           <div className="bg-white rounded-lg p-6 flex flex-col items-center">
             <Image src="/features/feature2.svg" alt="Certificate" width={80} height={80} />

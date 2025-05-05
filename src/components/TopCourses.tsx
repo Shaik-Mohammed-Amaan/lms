@@ -9,6 +9,7 @@ import {
 import cardData from "@/mockdata/card_data.json";
 import CourseCard from "./courseCard";
 import { Course } from "@/types/Course";
+import Link from "next/link";
 
 const getTopCourses = (courses: Course[], count: number = 8) => {
   // Example: sort by ratings descending, then take top N
@@ -31,7 +32,9 @@ const TopCourses = () => {
             <CarouselContent>
               {topCourses.map((course) => (
                 <CarouselItem key={course.id} className="md:basis-1/4 w-auto">
-                  <CourseCard course={course} />
+                  <Link key={course.id} href={`/courses/${course.id}`}>
+                    <CourseCard course={course} />
+                  </Link>
                 </CarouselItem>
               ))}
             </CarouselContent>

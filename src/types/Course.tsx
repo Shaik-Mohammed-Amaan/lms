@@ -12,7 +12,7 @@ export interface DetailedChapter {
     description: string;
     level: string;
     chapters: string;
-    price: string;
+  
     ratings: string;
     image: string;
     whatYouLearn: string[];
